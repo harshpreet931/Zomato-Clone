@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
+    <link rel="stylesheet" href="styles/index.processed.css"> 
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#">Get the App</a>
+        </div>
+        <div class="navbar-right">
+            <a href="#">Investor Relations</a>
+            <a href="#">Add Restaurant</a>
+            <a href="#">Log In</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="carousel">
+            <div class="carousel-image" style="background-image: url('./images/louis-hansel-wOISTbCpUCc-unsplash.jpg');"></div>
+            <div class="carousel-image" style="background-image: url('./images/louis-hansel-phEaeqe555M-unsplash.jpg');"></div>
+        </div>
+        <div class="maindiv">
+            <div class="main-top">
+                <img src="./images/zomatologo2.png" alt="logo">
+                <h1>Find India's best restaurants, cafés, and bars</h1>
+            </div>
+            <div class="main-bottom">
+                <select id="city-select" class="city-select">
+                    <option value="">Select a city</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="bangalore">Bangalore</option>
+                    <option value="hyderabad">Hyderabad</option>
+                    <!-- Add more cities as needed -->
+                </select>
+                <input class="search-bar" type="text" placeholder="Search for restaurant, cuisine or a dish">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="options">
+        <h1 class="Offerings">Our Offerings:</h1>
+        <div class="card">
+            <div class="slide slide1">
+                <div class="content">
+                    <div class="icon" style="background-image: url(./images/chad-montano-MqT0asuoIcU-unsplash.jpg);">
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="content">
+                    <h3>Order Online</h3>
+                    <p>Stay home and order at your doorstep.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="slide slide1">
+                <div class="content">
+                    <div class="icon" style="background-image: url(./images/louis-hansel-rheOvfxOlOA-unsplash.jpg);">
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="content">
+                    <h3>Dining</h3>
+                    <p>View the city's favourite dining venues</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="slide slide1">
+                <div class="content">
+                    <div class="icon" style="background-image: url(./images/antoine-j-r3XvSBEQQLo-unsplash.jpg);">
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="content">
+                    <h3>Nightlife and Clubs</h3>
+                    <p>Explore the city’s top nightlife outlets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collections">
+        <div class="collectText">
+            <h2>Collections</h2>
+            <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Chandigarh, based on trends.</p>
+        </div>
+        <div class="collectionCards">
+            <div class="collectioncard" style="background-image: url(./images/dollar-gill-YrN-E_tjmog-unsplash.jpg);"><h1 class="cardtext">Legends of Chandigarh</h1></div>
+            <div class="collectioncard" style="background-image: url(./images/vishwanth-pindiboina-GyVEUwxfhaM-unsplash.jpg);"><h1 class="cardtext">Newly Opened Restaurants</h1></div>
+            <div class="collectioncard" style="background-image: url(./images/dollar-gill-mFQjfZErs04-unsplash.jpg);"><h1 class="cardtext">Best in Chandigarh</h1></div>
+            <div class="collectioncard" style="background-image: url(./images/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);"><h1 class="cardtext">Best InstaWorthy</h1></div>
+        </div>
+    </section>
+
+    <section class="collections">
+        <div class="collectText">
+            <h2>Popular Around You</h2>
+        </div>
+        <div class="bigcardcontainer">
+            <div class="cards-container">
+                <div class="minicard">
+                <div class="card-media" style="background-image: url(./images/alan-hardman-SU1LFoeEUkk-unsplash.jpg);">
+                    <div class="discount">40% OFF<p>Up to &#x20b9;80 </p></div>
+                    <div class="pro-discount">PRO extra 15% OFF</div>
+                    <div class="delivery-time">39 mins</div>
+                    <div class="bookmark"></div>
+                </div>
+                <div class="card-description">
+                    <div class="about-place">
+                    <div class="place">
+                        <p class="place-name">Pizza Hut</p>
+                        <p class="place-speciality">Italian, Fast Food, Beverages</p>
+                    </div>
+                    <div class="place-review">
+                        <p class="rating">4.6 &#x2605;</p>
+                        <p class="per-person"> &#x20b9; 200 per one</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="minicard">
+                <div class="card-media" style="background-image: url(./images/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg);">
+                    <div class="discount">60% OFF<p>Up to &#x20b9;100 </p></div>
+                    <div class="pro-discount">PRO extra 15% OFF</div>
+                    <div class="delivery-time">25 mins</div>
+                    <div class="bookmark"></div>
+                </div>
+                <div class="card-description">
+                    <div class="about-place">
+                    <div class="place">
+                        <p class="place-name">Burger King</p>
+                        <p class="place-speciality">American Style Burgers</p>
+                    </div>
+                    <div class="place-review">
+                        <p class="rating">4.2 &#x2605;</p>
+                        <p class="per-person"> &#x20b9; 150 per one</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="minicard">
+                <div class="card-media" style="background-image: url(./images/aleks-dorohovich-HYpXP6Zk1dw-unsplash.jpg);">
+                    <div class="discount">20% OFF<p>Up to &#x20b9;50 </p></div>
+                    <div class="pro-discount">PRO extra 15% OFF</div>
+                    <div class="delivery-time">12 mins</div>
+                    <div class="bookmark"></div>
+                </div>
+                <div class="card-description">
+                    <div class="about-place">
+                    <div class="place">
+                        <p class="place-name">KFC</p>
+                        <p class="place-speciality">Kentucky's World Class Taste</p>
+                    </div>
+                    <div class="place-review">
+                        <p class="rating">5 &#x2605;</p>
+                        <p class="per-person"> &#x20b9; 300 per one</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="getapp">
+        <div class="getapp-image">
+            <img src="./images/phone.webp" alt="phone" height="300px">
+        </div>
+        <div class="getapp-rest">
+            <div class="getapp-text">
+                <h2>Get the Zomato app</h2>
+                <p>We will send you a link, open it on your phone to download the app</p>
+            </div>
+            <div class="getapp-form">
+                <input type="tel" placeholder="Enter your phone number" class="search-bar">
+                <button class="search-button">Send App Link</button>
+            </div>
+            <div class="getapp-images">
+                <img src="./images/appstore.webp" alt="appstore" height="30px" class="search-button">
+                <img src="./images/playstore.webp" alt="playstore" height="30px" class="search-button">
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Section THis is going to big -->
+    	<!-- Explore -->
+	<section class="container2">
+		<h1 class="explore-title">Explore other options for you here</h1>
+		<h2 class="explore-title-2">Popular cuisines near me</h2>
+		<div class="wrap-links">
+			<a href="#">Bakery food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Beverages food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Biryani food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Burger food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Chinese food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Continental food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Desserts food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Ice Cream food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Italian food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Kebab food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Maharashtrian food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Bakery food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Beverages food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Biryani food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Burger food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Chinese food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Continental food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Desserts food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Ice Cream food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Italian food near me</a>
+		</div>
+		<h2 class="explore-title-2">Popular restaurant types near me</h2>
+		<div class="wrap-links">
+			<a href="#">Bakery food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Beverages food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Biryani food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Burger food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Chinese food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Continental food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Desserts food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Ice Cream food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Italian food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Kebab food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Maharashtrian food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Bakery food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Beverages food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Biryani food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Burger food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Chinese food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Continental food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Desserts food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Ice Cream food near me</a>
+			<span class="dot-seperator"></span>
+			<a href="#">Italian food near me</a>
+		</div>
+		<h2 class="explore-title-2">Top Restaurant Chains</h2>
+		<div class="restraunt-chains">
+			<a href="#">Bikanervala</a>
+			<a href="#">Burger King</a>
+			<a href="#">Domino's</a>
+			<a href="#">Dunkin' Donuts</a>
+			<a href="#">KFC</a>
+			<a href="#">Krispy Kreme</a>
+			<a href="#">McDonald's</a>
+			<a href="#">Pizza Hut</a>
+			<a href="#">WOW! Momo</a>
+		</div>
+		<h2 class="explore-title-2">Cities We Deliver To</h2>
+		<div class="footer-links">
+			<ul>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#" class="last-link">See more</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+				<li><a href="#">Pune</a></li>
+				<li><a href="#">Delhi NCR</a></li>
+				<li><a href="#">Hyderabad</a></li>
+				<li><a href="#">Mumbai</a></li>
+				<li><a href="#">Bengaluru</a></li>
+			</ul>
+		</div>
+	</section>
+
+
+    <section class="footer-bar">
+		<div class="container2">
+			<div class="footer-lang">
+				<img class="footer-logo" src="images/zomatologo3.png" >
+				<div class="btn-lang-top">
+					<a class="lang-btn" href="#"><img src="images/india-flag.png" height="13px"> India</a>
+					<a class="lang-btn" href="#">English</a>
+				</div>
+			</div>
+			<div class="footer-last-links">
+				<ul>
+					<li><h4 class="footer-list-title">ABOUT ZOMATO</h4></li>
+					<li><a href="#">Who We Are</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Report Fraud</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Financial Information</a></li>
+				</ul>
+				<ul>
+					<li><h4 class="footer-list-title">ZOMAVERSE</h4></li>
+					<li><a href="#">Zomato</a></li>
+					<li><a href="#">Blinkit</a></li>
+					<li><a href="#">Feeding India</a></li>
+					<li><a href="#">Hyperpure</a></li>
+                    <li><a href="#">Zomaland</a></li>
+				</ul>
+				<ul>
+					<li><h4 class="footer-list-title">FOR RESTAURANTS</h4></li>
+					<li><a href="#">Partner With Us</a></li>
+					<li><a href="#">Apps For You</a></li>
+				</ul>
+				<ul>
+					<li><h4 class="footer-list-title">Learn More</h4></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Security</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Sitemap</a></li>
+				</ul>
+				<div>
+					<h4 class="footer-list-title">SOCIAL LINKS</h4>
+					<div class="footer-social-icons">
+						<a href="#"><img src="./images/linkedin.svg" alt="linkedin"></a>
+						<a href="#"><img src="./images/instagram.svg" alt="instagram"></a>
+						<a href="#"><img src="./images/twitter-x.svg" alt="twitter-x"></a>
+                        <a href="#"><img src="./images/youtube.svg" alt="youtube"></a>
+                        <a href="#"><img src="./images/meta.svg" alt="meta"></a>
+					</div>
+					<div>
+						<img src="images/playstore.webp" width="137px">
+						<img src="images/appstore.webp" width="137px">
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved. </p>
+			</div>
+		</div>
+		
+	</section>
+</body>
+</html>
